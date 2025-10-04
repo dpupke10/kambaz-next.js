@@ -4,13 +4,16 @@ export default function AssignmentEditor() {
       <h2>Assignment Editor</h2>
       <form>
         <label htmlFor="assignment-title">Title:</label>
-        <input id="assignment-title" placeholder="Assignment Title" /><br />
+        <input id="assignment-title" placeholder="Assignment Title" />
+        <br />
 
         <label htmlFor="assignment-points">Points:</label>
-        <input id="assignment-points" type="number" placeholder="100" /><br />
+        <input id="assignment-points" type="number" placeholder="100" />
+        <br />
 
         <label htmlFor="assignment-due-date">Due Date:</label>
-        <input id="assignment-due-date" type="date" /><br />
+        <input id="assignment-due-date" type="date" />
+        <br />
 
         <button type="submit">Save</button>
       </form>

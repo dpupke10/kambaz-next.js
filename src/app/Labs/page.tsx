@@ -29,7 +29,11 @@ export default function Labs() {
         </Link>
       </p>
       <p>
-        <a href="https://github.com/dpupke10/kambaz-next.js" id="wd-source-code-link" target="_blank">
+        <a
+          href="https://github.com/dpupke10/kambaz-next.js"
+          id="wd-source-code-link"
+          target="_blank"
+        >
           Source Code Repository
         </a>
       </p>

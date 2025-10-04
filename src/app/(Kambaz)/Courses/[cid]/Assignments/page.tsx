@@ -11,17 +11,26 @@ export default function Assignments() {
       </h3>
       <ul id="wd-assignment-list">
         <li className="wd-assignment-list-item">
-          <Link href="/Courses/1234/Assignments/123" className="wd-assignment-link">
+          <Link
+            href="/Courses/1234/Assignments/123"
+            className="wd-assignment-link"
+          >
             A1 - ENV + HTML
           </Link>
         </li>
         <li className="wd-assignment-list-item">
-          <Link href="/Courses/1234/Assignments/124" className="wd-assignment-link">
+          <Link
+            href="/Courses/1234/Assignments/124"
+            className="wd-assignment-link"
+          >
             A2 - CSS Basics
           </Link>
         </li>
         <li className="wd-assignment-list-item">
-          <Link href="/Courses/1234/Assignments/125" className="wd-assignment-link">
+          <Link
+            href="/Courses/1234/Assignments/125"
+            className="wd-assignment-link"
+          >
             A3 - JavaScript Fundamentals
           </Link>
         </li>
