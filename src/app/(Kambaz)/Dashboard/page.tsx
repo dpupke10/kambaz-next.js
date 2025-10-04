@@ -31,8 +31,13 @@ export default function Dashboard() {
                   <Card.Text className="wd-dashboard-course-description overflow-hidden" style={{ height: "100px" }}>
                     Full Stack Software Development
                   </Card.Text>
-                  <Button variant="primary">Go</Button>
                 </Card.Body>
+              </Link>
+              <Link
+                href="/Courses/1234"
+                className="wd-dashboard-course-link text-decoration-none text-dark"
+              >
+                <Button variant="primary">Go</Button>
               </Link>
             </Card>
           </Col>
@@ -56,8 +61,13 @@ export default function Dashboard() {
                   <Card.Text className="wd-dashboard-course-description overflow-hidden" style={{ height: "100px" }}>
                     Backend Development
                   </Card.Text>
-                  <Button variant="primary">Go</Button>
                 </Card.Body>
+              </Link>
+              <Link
+                href="/Courses/5678"
+                className="wd-dashboard-course-link text-decoration-none text-dark"
+              >
+                <Button variant="primary">Go</Button>
               </Link>
             </Card>
           </Col>
@@ -81,8 +91,13 @@ export default function Dashboard() {
                   <Card.Text className="wd-dashboard-course-description overflow-hidden" style={{ height: "100px" }}>
                     Advanced JavaScript
                   </Card.Text>
-                  <Button variant="primary">Go</Button>
                 </Card.Body>
+              </Link>
+              <Link
+                href="/Courses/9101"
+                className="wd-dashboard-course-link text-decoration-none text-dark"
+              >
+                <Button variant="primary">Go</Button>
               </Link>
             </Card>
           </Col>
@@ -106,8 +121,13 @@ export default function Dashboard() {
                   <Card.Text className="wd-dashboard-course-description overflow-hidden" style={{ height: "100px" }}>
                     Web Design Basics
                   </Card.Text>
-                  <Button variant="primary">Go</Button>
                 </Card.Body>
+              </Link>
+              <Link
+                href="/Courses/1121"
+                className="wd-dashboard-course-link text-decoration-none text-dark"
+              >
+                <Button variant="primary">Go</Button>
               </Link>
             </Card>
           </Col>
@@ -131,8 +151,13 @@ export default function Dashboard() {
                   <Card.Text className="wd-dashboard-course-description overflow-hidden" style={{ height: "100px" }}>
                     Data Science
                   </Card.Text>
-                  <Button variant="primary">Go</Button>
                 </Card.Body>
+              </Link>
+              <Link
+                href="/Courses/3141"
+                className="wd-dashboard-course-link text-decoration-none text-dark"
+              >
+                <Button variant="primary">Go</Button>
               </Link>
             </Card>
           </Col>
@@ -156,8 +181,13 @@ export default function Dashboard() {
                   <Card.Text className="wd-dashboard-course-description overflow-hidden" style={{ height: "100px" }}>
                     Object-Oriented Programming
                   </Card.Text>
-                  <Button variant="primary">Go</Button>
                 </Card.Body>
+              </Link>
+              <Link
+                href="/Courses/5161"
+                className="wd-dashboard-course-link text-decoration-none text-dark"
+              >
+                <Button variant="primary">Go</Button>
               </Link>
             </Card>
           </Col>
@@ -181,8 +211,13 @@ export default function Dashboard() {
                   <Card.Text className="wd-dashboard-course-description overflow-hidden" style={{ height: "100px" }}>
                     Database Management Systems
                   </Card.Text>
-                  <Button variant="primary">Go</Button>
                 </Card.Body>
+              </Link>
+              <Link
+                href="/Courses/7181"
+                className="wd-dashboard-course-link text-decoration-none text-dark"
+              >
+                <Button variant="primary">Go</Button>
               </Link>
             </Card>
           </Col>
