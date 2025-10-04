@@ -1,26 +1,40 @@
+import { Accordion, ListGroup } from "react-bootstrap";
+
 export default function Modules() {
   return (
     <div>
-      <ul id="wd-modules">
-        <li className="wd-module">
-          <div className="wd-title">Week 1</div>
-          <ul className="wd-lessons">
-            <li className="wd-lesson">
-              <span className="wd-title">LEARNING OBJECTIVES</span>
-              <ul className="wd-content">
-                <li className="wd-content-item">Introduction to the course</li>
-                <li className="wd-content-item">Learn what is Web Development</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li className="wd-module">
-          <div className="wd-title">Week 2</div>
-        </li>
-        <li className="wd-module">
-          <div className="wd-title">Week 3</div>
-        </li>
-      </ul>
+      <Accordion id="wd-modules">
+        <Accordion.Item eventKey="0" className="wd-module">
+          <Accordion.Header>Week 1</Accordion.Header>
+          <Accordion.Body>
+            <ListGroup className="wd-lessons">
+              <ListGroup.Item className="wd-lesson">
+                <span className="wd-title">LEARNING OBJECTIVES</span>
+                <ListGroup className="wd-content">
+                  <ListGroup.Item className="wd-content-item">
+                    Introduction to the course
+                  </ListGroup.Item>
+                  <ListGroup.Item className="wd-content-item">
+                    Learn what is Web Development
+                  </ListGroup.Item>
+                </ListGroup>
+              </ListGroup.Item>
+            </ListGroup>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="1" className="wd-module">
+          <Accordion.Header>Week 2</Accordion.Header>
+          <Accordion.Body>
+            Content for Week 2
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="2" className="wd-module">
+          <Accordion.Header>Week 3</Accordion.Header>
+          <Accordion.Body>
+            Content for Week 3
+          </Accordion.Body>
+        </Accordion.Item>
+      </Accordion>
     </div>
   );
 }

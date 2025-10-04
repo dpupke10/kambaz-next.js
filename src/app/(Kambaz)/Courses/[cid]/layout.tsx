@@ -6,18 +6,14 @@ export default function CoursesLayout({
 }: Readonly<{ children: ReactNode }>) {
   return (
     <div id="wd-courses-layout">
-      <table>
-        <tbody>
-          <tr>
-            <td valign="top" width="200">
-              <CourseNavigation />
-            </td>
-            <td valign="top" width="100%">
-              {children}
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div className="d-flex">
+        <div className="d-none d-md-block">
+          <CourseNavigation />
+        </div>
+        <div className="flex-fill">
+          {children}
+        </div>
+      </div>
     </div>
   );
 }

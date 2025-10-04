@@ -14,7 +14,7 @@ export default function Labs() {
         </li>
         <li>
           <Link href="/Labs/Lab2" id="wd-lab2-link">
-            Lab 2: CSS Basics
+            Lab 2: Styling Web Pages with CSS
           </Link>
         </li>
         <li>
