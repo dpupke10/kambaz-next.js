@@ -1,3 +1,5 @@
+"use client";
+
 import { Row, Col, Card, Button } from "react-bootstrap";
 import Link from "next/link";
 import Image from "next/image";
